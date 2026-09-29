@@ -13,19 +13,17 @@ Built with **Jetpack Compose (Material 3 - Clean Minimalism)** on Android and pa
 ### Quick Run in Android Studio (Step-by-Step)
 
 #### Step 1: Get the Code
-- **Option A (Export ZIP)**: In AI Studio, click the project menu (or settings) and select **Export as ZIP**. Unzip it into a folder on your PC.
-- **Option B (Git Clone)**: If pushed to GitHub or a Git repository:
-  ```bash
-  git clone <YOUR_REPO_URL>
-  cd prompt-strategy
-  ```
+Clone or download this project repository:
+```bash
+git clone <YOUR_REPO_URL>
+cd prompt-strategy
+```
 
 #### Step 2: Open in Android Studio
-1. Launch **Android Studio** (Hedgehog, Iguana, Jellyfish, Koala, or Ladybug/newer).
+1. Launch **Android Studio**.
 2. Click **Open** (or `File > Open...`).
 3. Select the root folder of this project.
 4. Android Studio will automatically recognize the Gradle project and trigger a **Gradle Sync**.
-   > *Note:* Android Studio will use standard Gradle with JDK 17 or 21 (bundled automatically with Android Studio).
 
 #### Step 3: (Optional) Set Your Gemini API Key
 The app has a **built-in offline simulator** so it works immediately even without an API key!
@@ -38,7 +36,7 @@ To test live model calls with the Gemini API:
    ```properties
    GEMINI_API_KEY=your_actual_gemini_api_key_here
    ```
-   *(You can get a free Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey))*
+   *(You can obtain your Gemini API key from Google Developer Console)*
 
 #### Step 4: Click Run ▶
 - Select an **Android Emulator** (API 26+) or connect your **physical Android device** via USB debugging.
