@@ -1,0 +1,6 @@
+{
+  "name": "Prompt Strategy",
+  "description": "Evaluate and compare Zero-Shot, Few-Shot, and Structured prompt strategies across complexity levels with accuracy, latency metrics, and Python benchmark scripts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
